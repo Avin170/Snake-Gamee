@@ -247,7 +247,7 @@ class Snake{
             this.history[i] = this.history[i + 1];
           }
           this.pos.add(this.dir);
-          this.delay = 17;
+          this.delay = 12;
           this.total > 3 ? this.selfCollision() : null;
         }
       }
